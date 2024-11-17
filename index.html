@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Halloween Party</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sam Saket">
+    <meta name="description" content="">
+
+</head>
+
+<body>
+
+    <audio id="background-audio" src="sounds/scary-night.mp3" autoplay loop></audio>    <!-- controls -->
+
+    <div class="blitz"></div>
+    <div class="blitz"></div>
+
+
+
+    <header>
+        <nav>
+                <div class="mobile">
+                    <a href="index.html" class="logo-link"><svg class="logo" width="126" height="48"
+                            viewBox="0 0 126 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M125.037 3.76789C109.534 -7.53722 87.73 9.85262 78.7658 19.9607L68.7638 23.839L68.7271 18.7648L74.0254 14.6035C73.6528 13.6547 71.7536 12.5267 67.137 15.6048C65.616 13.3324 62.6377 14.686 61.3387 15.6468L61.5684 47.3603C64.3167 44.5388 70.4751 39.3987 73.1225 41.4093C76.4319 43.9225 77.5265 43.5974 78.9025 38.8302C80.2784 34.0629 93.2567 30.0045 103.12 28.6645C102.9 19.9444 111.791 14.0127 117.112 13.0227C117.064 6.36287 117.058 5.57004 125.037 3.76789Z"
+                                fill="white" />
+                            <path
+                                d="M0.0273384 4.64367C15.8186 -6.88817 38.5175 10.1792 47.8931 20.1544L58.2452 23.8852L58.2084 18.8111L52.6936 14.7281C53.0632 13.774 55.0015 12.6182 59.7986 15.6281C61.3308 13.3335 64.4163 14.6432 65.7675 15.5848L65.9972 47.2982C63.127 44.5175 56.7125 39.4685 54.017 41.5177C50.6477 44.0794 49.5161 43.7704 48.0298 39.0239C46.5434 34.2774 33.1251 30.4103 22.9527 29.2154C23.0509 20.493 13.8131 14.6926 8.32132 13.781C8.27307 7.12114 8.26732 6.3283 0.0273384 4.64367Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+                    <input type="checkbox" id="menu-button">
+                    <label for="menu-button">
+                        <img class="open" src="icons/menu.svg" alt="menu öffnen">
+                        <img class="close" src="icons/menu_close.svg" alt="menu schliessen">
+                    </label>
+
+                    <ul id="nav-menu">
+                        <li><a href="#hero">Willkommen im Dunklen</a></li>
+                        <li><a href="#termin">Schrecken-Zeitplan</a></li>
+                        <li><a href="#gallery">Blick in die Finsternis</a></li>
+                        <li><a href="#adresse">Standort des Schreckens</a></li>
+                        <li><a href="#ticket">Mutprobe reservieren</a></li>
+
+                    </ul>
+                </div>
+        </nav>
+
+
+        <section class="video-section" id="hero">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="02_IMG_0445.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <h1>Haunted House des Schreckens</h1>
+                <p>Traust du dich einzutreten?</p>
+                <p>Lebendig gewordene Albträume!</p>
+            </div>
+        </section>
+
+
+    </header>
+
+    <main>
+
+        <svg class="geist" width="99" height="138" viewBox="0 0 99 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_i_116_7)">
+                <path
+                    d="M60.3331 44.6575C31.0029 -27.5234 14.8747 34.7079 28.8518 57.069L26.5297 69.9117C26.5297 69.9117 16.9751 76.1077 15.142 82.9327C11.5053 96.4727 38.6736 89.3117 38.6736 89.3117C38.6736 89.3117 42.487 100.441 43.0727 108.733C43.7296 118.034 40.977 133.695 40.977 133.695L90.1295 119.752C87.0455 115.26 80.341 104.079 78.1949 95.2887C75.5124 84.3009 81.8186 77.0727 86.8106 71.7403C90.8042 67.4745 84.2653 65.065 80.4966 64.3935C76.3703 65.564 66.5606 63.2556 60.3331 44.6575Z"
+                    fill="#FCFCFC" stroke="#FF7518" />
+                <ellipse cx="4.41245" cy="9.37507" rx="4.41245" ry="9.37507"
+                    transform="matrix(0.915956 -0.401279 0.330193 0.943913 25.9745 33.9825)" fill="#D9D9D9" />
+                <ellipse cx="4.36585" cy="9.4582" rx="4.36585" ry="9.4582"
+                    transform="matrix(0.970568 -0.240829 0.19435 0.980932 38.3756 28.7195)" fill="#D9D9D9" />
+            </g>
+            <defs>
+                <filter id="filter0_i_116_7" x="14.3134" y="10.2819" width="76.6307" height="128.108"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_116_7" />
+                </filter>
+            </defs>
+        </svg>
+
+
+        <div class="text-divider">
+            <h2>Betreten auf eigene Gefahr!</h2>
+            <p>Unser Haunted House ist kein gewöhnliches Spukhaus – es ist eine Reise durch die dunkelsten Ecken deiner
+                Fantasie. Von blutigen Geheimnissen bis zu flüsternden Schatten, hier lauert das Grauen in jeder Ecke.
+                Bist du mutig genug, uns zu besuchen und die tiefsten Ängste in deinem Inneren zu wecken?</p>
+        </div>
+
+
+        <svg class="geist2" width="74" height="100" viewBox="0 0 74 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_f_116_16)">
+                <path
+                    d="M28.2566 33.1263C46.5339 -18.0079 59.6151 24.8463 50.5472 40.8328L52.5461 49.7065C52.5461 49.7065 59.3835 53.7369 60.8629 58.4349C63.7979 67.7551 44.6667 63.5765 44.6667 63.5765C44.6667 63.5765 42.3422 71.4398 42.181 77.2311C42.0001 83.7275 44.3825 94.5509 44.3825 94.5509L9.74129 86.3034C11.7552 83.0838 16.0914 75.0985 17.3244 68.9137C18.8656 61.1827 14.2594 56.337 10.6248 52.7724C7.71703 49.9206 12.1986 48.0484 14.8029 47.4687C17.7111 48.1611 24.4732 46.262 28.2566 33.1263Z"
+                    fill="#FCFCFC" stroke="#C2A089" />
+                <path
+                    d="M44.7041 28.8807C44.1979 30.5534 44.0586 32.1654 44.2229 33.408C44.3932 34.6947 44.8522 35.3921 45.3573 35.5881C45.8624 35.7842 46.6026 35.5523 47.434 34.6543C48.2367 33.7871 48.9996 32.4171 49.5058 30.7444C50.0119 29.0717 50.1513 27.4598 49.9869 26.2172C49.8167 24.9305 49.3577 24.2331 48.8525 24.0371C48.3474 23.841 47.6072 24.0729 46.7759 24.9709C45.9731 25.8381 45.2102 27.208 44.7041 28.8807Z"
+                    fill="white" stroke="#C2A089" />
+                <path
+                    d="M36.5946 26.7777C36.3257 28.5219 36.4107 30.1429 36.7447 31.3458C37.0915 32.5946 37.6414 33.2001 38.1585 33.3052C38.6756 33.4103 39.373 33.0584 40.072 32.0222C40.7453 31.0241 41.3096 29.535 41.5784 27.7907C41.8472 26.0465 41.7623 24.4255 41.4282 23.2226C41.0814 21.9738 40.5316 21.3683 40.0144 21.2632C39.4973 21.1581 38.7999 21.51 38.1009 22.5462C37.4276 23.5443 36.8634 25.0334 36.5946 26.7777Z"
+                    fill="white" stroke="#C2A089" />
+            </g>
+            <defs>
+                <filter id="filter0_f_116_16" x="4.9397" y="4.28854" width="60.724" height="94.93"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_116_16" />
+                </filter>
+            </defs>
+        </svg>
+
+
+
+
+        <section class="video-section">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="03_IMG_0447.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <h2>Nur die Mutigen werden es bis zum Ausgang schaffen ... oder werden sie?</h2>
+                <p>Lust auf einen Adrenalinschub?</p>
+            </div>
+        </section>
+
+        <svg class="bat" width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M48.5486 32.1276C46.7009 24.9948 35.9921 24.8397 30.8687 25.6538L26.955 24.3666L28.1802 22.8522L30.7667 22.9089C30.8873 22.5366 30.5983 21.7391 28.4781 21.5271C28.5802 20.4821 27.3664 20.1578 26.7467 20.1263L19.0889 29.5913C20.592 29.4241 23.6723 29.4001 23.9683 30.6419C24.3384 32.1941 24.7425 32.3645 26.3123 31.2854C27.8821 30.2064 32.7232 32.1656 35.9775 34.1721C38.0367 31.5314 42.1206 31.9383 43.9413 32.9416C45.5495 30.9539 45.7409 30.7173 48.5486 32.1276Z"
+                fill="white" />
+            <path
+                d="M10.2439 1.10611C17.6155 1.52479 20.1499 11.9447 20.4956 17.1024L22.6226 20.6717L23.8278 19.1822L23.1968 16.6692C23.5333 16.4793 24.3759 16.6064 25.0546 18.6343C26.0515 18.3318 26.6381 19.4534 26.8068 20.052L19.2745 29.3618C19.1032 27.8626 18.4412 24.8521 17.1635 24.8042C15.5664 24.7444 15.3103 24.383 16.0139 22.6417C16.7175 20.9004 13.7284 16.5565 11.0461 13.7703C13.1649 11.2484 11.859 7.34206 10.4748 5.76005C12.0565 3.80498 12.2449 3.57223 10.2439 1.10611Z"
+                fill="white" />
+        </svg>
+
+
+        <div class="text-divider">
+            <h2>Bereit für den nächsten Schock?</h2>
+            <p>Achtung! Ein Besuch in unserem Haunted House kann plötzliche Schocks und Adrenalinstöße auslösen. Die
+                Geister in unseren Hallen sind nicht zimperlich und sie werden nicht zögern, dir einen schaurigen
+                Schrecken einzujagen. Keine Rückerstattungen bei Panikflucht – du wurdest gewarnt!</p>
+        </div>
+
+        <svg class="bat2" width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M28.461 8.59063C24.403 7.71512 21.6141 13.0662 20.727 15.8511L19.0883 17.4953L18.6362 16.4952L19.3195 15.2076C19.1626 15.0527 18.688 14.9963 18.0446 16.0099C17.5445 15.6939 17.074 16.2228 16.9012 16.5268L19.727 22.7773C20.0234 21.9784 20.791 20.4218 21.491 20.5872C22.366 20.7938 22.5541 20.6335 22.4083 19.5702C22.2626 18.5069 24.4742 16.566 26.308 15.4359C25.5 13.731 26.7386 11.7783 27.7045 11.1158C27.1111 9.80317 27.0404 9.6469 28.461 8.59063Z"
+                fill="white" />
+            <path
+                d="M3.14986 20.0188C5.22663 16.4143 11.1131 17.7763 13.7968 18.9078L16.1318 18.7407L15.6871 17.757L14.2625 17.4385C14.2521 17.2211 14.5294 16.8291 15.7219 17.0008C15.822 16.4224 16.5351 16.4111 16.8791 16.4777L19.6585 22.6258C18.8605 22.3325 17.1776 21.9036 16.83 22.5346C16.3956 23.3234 16.1489 23.3609 15.4505 22.5659C14.7522 21.771 11.809 22.176 9.72751 22.8208C8.99443 21.1159 6.6976 20.7844 5.55089 21.0807C4.9672 19.7896 4.89772 19.6359 3.14986 20.0188Z"
+                fill="white" />
+        </svg>
+
+
+
+        <section class="video-section">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="01_IMG_0444.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <h2>Überlebensregeln</h2>
+                <p>Überlebe die Nacht, indem du dich an ein paar einfache Regeln hältst: Bleib ruhig, auch wenn es
+                    unmöglich scheint. Halte dich von dunklen Ecken fern. Und vor allem, verlier die Geister niemals aus
+                    den Augen – sie könnten direkt hinter dir stehen</p>
+            </div>
+        </section>
+
+        <section id="termin" class="spooky-hours">
+            <h2>🕸️ Grusel-Öffnungszeiten 🕸️</h2>
+            <table class="rotating-table">
+                <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th>Uhrzeit</th>
+                        <th>Veranstaltung</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>31. Oktober 2025 & 01. November 2025</td>
+                        <td>18:00 - 23:00</td>
+                        <td>Erwachsene</td>
+                    </tr>
+                    <tr>
+                        <td>Sonntag, 02. November 2025</td>
+                        <td>14:00 - 19:00</td>
+                        <td>Kinder-Halloween</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="countdown">
+                    <div class="time-box">
+                        <span id="days"></span>
+
+                    </div>
+                    <div class="time-box">
+                        <span id="hours"></span>
+
+                    </div>
+                    <div class="time-box">
+                        <span id="minutes"></span>
+
+                    </div>
+                    <div class="time-box">
+                        <span id="seconds"></span>
+
+                    </div>
+        </section>
+
+        <section id="gallery">
+            <div>
+                <h2>Bilder Galerie</h2>
+                <div class="slider">
+                    <div class="slides">
+                        <figure> <img src="images/Image (5).png" alt="image_05">
+                            <figcaption>Düstere Puppenführerin</figcaption>
+                        </figure>
+                        <figure> <img src="images/Image (6).png" alt="image_06">
+                            <figcaption>Tödliche Liebe</figcaption>
+                        </figure>
+                        <figure> <img src="images/Image (7).png" alt="image_07">
+                            <figcaption>Eisige Schönheit</figcaption>
+                        </figure>
+                        <figure> <img src="images/Image (8).png" alt="image_08">
+                            <figcaption>Erschreckend schön</figcaption>
+                        </figure>
+                        <figure> <img src="images/Image (9).png" alt="image_09">
+                            <figcaption>Tödlicher Charme</figcaption>
+                        </figure>
+                        <figure> <img src="images/Image (10).png" alt="image_10">
+                            <figcaption>Zwei Gespenster im Dunkeln</figcaption>
+                        </figure>
+                        <figure> <img src="images/Image (11).png" alt="image_11">
+                            <figcaption>Hexenspaß am Feuer</figcaption>
+                        </figure>
+                        <figure> <img src="images/Image (12).png" alt="image_12">
+                            <figcaption>Gruselige Begegnungen im Wald</figcaption>
+                        </figure>
+                    </div>
+
+                    <button class="prev">&#10094;</button>
+
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="video-gallery">
+            
+                <h2>Video Galerie</h2>
+                <div class="slider">
+                    <div class="slides">
+
+                        <figure>
+                            <video src="04_IMG_0450.mp4" controls muted></video>
+                            <figcaption>Ein schauriger Weg ins Unbekannte!</figcaption>
+                        </figure>
+
+                        <figure>
+                            <video src="05_IMG_0452.mp4" controls muted></video>
+                            <figcaption>Der Raum des Schrekens!</figcaption>
+                        </figure>
+
+                        <figure>
+                            <video src="06_IMG_0454.mp4" controls muted></video>
+                            <figcaption>Dunkele Geheimnisse hinter jeder Ecke!</figcaption>
+                        </figure>
+
+                        <figure>
+                            <video src="07_IMG_0457.mp4" controls muted></video>
+                            <figcaption>Folter und Entsetzen</figcaption>
+                        </figure>
+
+                        <figure>
+                            <video src="08_IMG_0458.mp4" controls muted></video>
+                            <figcaption>Der Horror beginnt hier!</figcaption>
+                        </figure>
+                    </div>
+
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            
+        </section>
+
+
+        <section id="adresse" class="spooky-map">
+            <h2>🗺️ Unsere gruselige Location 🗺️</h2>
+            <div class="map-container">
+                <a href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1280.1202888341656!2d8.581920779713318!3d50.081782464058406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1730915875945!5m2!1sde!2sde"
+                    target="_blank">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1280.1202888341656!2d8.581920779713318!3d50.081782464058406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1730915875945!5m2!1sde!2sde"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </div>
+        </section>
+
+
+
+        <section id="ticket">
+            <div>
+
+                <h3>Bitte hinterlasse deine Daten – unser Friedhofswärter freut sich auf dich.</h3>
+
+                <form>
+                    <fieldset class="kontakt">
+                        <label>
+                            <span>Wie sollen wir dich nennen, wenn wir dich ausrufen?</span>
+                            <input type="text" name="name" required placeholder="Max Mustermann">
+                        </label>
+
+                        <label>
+                            <span>Wohin soll die Einladung ins Verderben gesendet werden?</span>
+                            <input type="email" name="email" required placeholder="maxi@mail.com">
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="datum">
+                        <legend>An welchem Tag willst du den Geistern begegnen?</legend>
+
+                        <label>
+                            <input type="checkbox" name="termin" required>
+                            <span>31. Oktober 2025</span>
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="termin" required>
+                            <span>01. November 2025</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="termin" required>
+                            <span>02. November 2025</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="person">
+                        <legend>Wie viele Opfer bringst du mit?</legend>
+                        <div class="opfer">
+                        <label>
+                            <input type="radio" name="ticket">
+                            <span>Ein einsames Opfer tritt vor … ganz allein!</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="ticket">
+                            <span>Ich bringe ein mutiges Opfer mit!</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="ticket">
+                            <span>Eine Truppe voller tapferer Opfer!</span>
+                        </label>
+
+                        <label>
+                            <span>Anzahl der Seelen</span>
+                            <input type="number" name="anzahl">
+                        </label>
+                    </div>
+                    </fieldset>
+
+                    <div class="rechtliches">
+                        <label>
+                            <input type="checkbox" required name="agb">
+                            <span>Ja, ich habe die <a href="" target="_blank">Agb</a> gelesen und akzeptiere, dass ich
+                                mich vor Angst in die Hose machen könnte!</span>
+                        </label>
+                    </div>
+
+                    <button type="submit">Verbindlich meine Mutprobe reservieren</button>
+
+                </form>
+
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© WI24B Sam Saket</p>
+        <p><a href="" class="footer-link">Impressum</a></p>
+        <p><a href="" class="footer-link">Haunted House</a></p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
